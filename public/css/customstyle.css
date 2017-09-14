@@ -1,0 +1,276 @@
+
+.has-danger input, .has-danger .ant-select {
+  border-color: #d9534f;
+}
+
+.app {
+	min-height: 100%;
+	height: 100%;
+	margin: 0;
+}
+.height-100 {
+	height: 100% !important;
+}
+.width-100 {
+  width: 100% !important;
+}
+.app-root-element {
+  height: 100% !important;
+  width: 100% !important;
+  margin-left: 0px !important;
+}
+/* Nav bar */
+.navbar-brand{
+	font-family: 'Gruppo', cursive;
+    font-weight: bold;
+}
+ /* Nav bar */
+ .mobilenurse-navbar-brand{
+	font-family: 'Gruppo', cursive;
+    font-weight: bold;
+}
+
+.mobilenurse-navbar{
+    font-family: 'Gruppo', cursive;
+	font-weight: bold;
+    background: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	font-size: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+.mobilenurse-navbar:hover{
+    background-color: white;
+}
+
+.mobilenurse-brand {
+    color: black;
+}
+
+.mobilenurse-font {
+    color: black;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: black
+
+  }
+
+ .nav>li>a:focus,
+ .nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent !important;
+    color: black
+}
+
+
+
+form a {
+    margin-left: 10px;
+}
+
+
+.menu {
+	height: 100%;
+  border-right: 1px solid #dcdcdc;
+	border-bottom: 1px solid #dcdcdc
+	/*position: fixed;
+	max-width: 25%;*/
+}
+.menu .menu-item {
+	padding: 0;
+}
+.menu .menu-item a {
+	text-decoration: none;
+}
+.menu .menu-item a h4 {
+  padding: 10px 25px;
+	cursor: pointer;
+}
+.menu .menu-item:hover{
+	background: rgba(204, 204, 204, 0.3);
+}
+
+
+
+/* LANDING JUMBOTRON
+.container-fluid {
+    padding-top: 5px;
+    padding-bottom: 25px;
+} */
+
+.display-header {
+    font-size: 45px;
+}
+
+.jumbotron {
+    text-align: center;
+    /* font-family: 'Gruppo', cursive;
+	font-weight: bold; */
+}
+
+.mobilenurse-header{
+	font-family: 'Gruppo', cursive;
+	font-weight: bold;
+	font-size: 60px;
+}
+
+/* text{
+	font-family: 'Gruppo', cursive;
+} */
+/*LANDING JUMBOTRON END*/
+
+/*SERVICES*/
+.services {
+	font-family: 'Gruppo', cursive;
+}
+
+.services-header{
+	font-family: 'Gruppo', cursive;
+
+}
+
+#bootstrap-btn-overrides {
+    background-color: #000; /* Green */
+    font-family: 'Gruppo', cursive;
+    font-weight: bold;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    width: 300px;
+}
+
+/*SIGNIN FORM */
+.form-signin
+{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+h1{
+	font-size: 40px;
+	font-family: 'Gruppo', cursive;
+}
+
+h3{
+	font-size: 18px;
+}
+
+.form-signin .form-signin-heading, .form-signin .checkbox
+{
+    margin-bottom: 10px;
+	font-family: 'Gruppo', cursive;
+	font-weight: bold;
+	text-align: center;
+}
+.form-signin .checkbox
+{
+    font-weight: normal;
+
+}
+.form-signin .form-control
+{
+	font-family: 'Gruppo', cursive;
+    position: relative;
+    font-size: 18px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus
+{
+    z-index: 2;
+}
+.form-signin input[type="text"]
+{
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"]
+{
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.account-wall
+{
+    margin-top: 20px;
+    padding: 40px 0px 20px 0px;
+    background-color: #f7f7f7;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.login-title
+{
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
+.profile-img
+{
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.need-help
+{
+    margin-top: 10px;
+}
+.new-account
+{
+    display: block;
+    margin-top: 10px;
+}
+
+/*END SIGNIN FORM */
+
+.form-wrapper {
+	border: 1px solid gainsboro;
+	padding: 20px;
+	margin: 20px;
+}
+.margin-y-20 {
+  margin: 20px 0;
+}
+
+.margin-y-10 {
+	margin: 10px 0;
+}
+.header {
+	margin: 0 !important;
+}
+.header-hr{
+	margin-left: -16px;
+  margin-right: -15px;
+}
+
+.form-buttons {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.client-dob input {
+	border: none;
+}
+
+.m-y{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
